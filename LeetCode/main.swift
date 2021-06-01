@@ -52,7 +52,11 @@ import Foundation
 //var ret = Solution19().removeNthFromEnd(linkedList, 2)
 //print(ret)
 
-var s = "{[]}"
-print(Solution20().isValid(s))
+//var s = "{[]}"
+//print(Solution20().isValid(s))
 
+print(Solution22().generateParenthesis(3))
+//var temp = "abcd"
+//temp.insert("f", at: temp.startIndex)
+//print(temp)
 
