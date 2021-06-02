@@ -55,8 +55,12 @@ import Foundation
 //var s = "{[]}"
 //print(Solution20().isValid(s))
 
-print(Solution22().generateParenthesis(3))
+//print(Solution22().generateParenthesis(3))
 //var temp = "abcd"
 //temp.insert("f", at: temp.startIndex)
 //print(temp)
+
+var nums = [1,2,4,3,3]
+Solution31().nextPermutation(&nums)
+print(nums)
 

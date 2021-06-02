@@ -47,7 +47,7 @@ class Solution17 {
 
     func BFS(digits: String, ans: [String]) -> [String] {
         guard digits.count > 0 else {
-            return
+            return []
         }
 
         let cur = digits[digits.startIndex]
