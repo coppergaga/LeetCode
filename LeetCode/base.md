@@ -356,6 +356,7 @@ https://www.jianshu.com/p/2e074db792ba
 # autoreleasePool 对象何时加入其中
 # 引用计数是谁在计数
 # 启动速度优化，包大小优化
+# 线程保活
 
 # 算法
 1. 单链表反转
