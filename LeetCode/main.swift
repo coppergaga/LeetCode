@@ -60,7 +60,10 @@ import Foundation
 //temp.insert("f", at: temp.startIndex)
 //print(temp)
 
-var nums = [1,2,4,3,3]
-Solution31().nextPermutation(&nums)
-print(nums)
+//var nums = [1,2,4,3,3]
+//Solution31().nextPermutation(&nums)
+//print(nums)
 
+var nums = [4,5,6,7,0,1,2]
+var target = 8
+print(Solution33().search(nums, target))
