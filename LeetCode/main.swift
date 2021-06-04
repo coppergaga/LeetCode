@@ -64,6 +64,10 @@ import Foundation
 //Solution31().nextPermutation(&nums)
 //print(nums)
 
-var nums = [4,5,6,7,0,1,2]
-var target = 8
-print(Solution33().search(nums, target))
+//var nums = [4,5,6,7,0,1,2]
+//var target = 8
+//print(Solution33().search(nums, target))
+
+var nums = [1]
+var target = 1
+print(Solution34().searchRange(nums, target))
